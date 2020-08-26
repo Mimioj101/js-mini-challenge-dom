@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+either move index.js script or throw it in a DOMContent Loaded
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+header.style.fontcolor(or something that changes font color, need to change it)
 ```
 
 ## Deliverable 3
@@ -57,7 +57,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+create a div, append it. iterate through PLAYERS and add the html with interpolated player.attributes. save in a const and set equal to div.innerHTML. BOOM, players.
 ```
 
 ## Deliverable 4
@@ -68,5 +68,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+find Raheem and .remove() him
 ```
